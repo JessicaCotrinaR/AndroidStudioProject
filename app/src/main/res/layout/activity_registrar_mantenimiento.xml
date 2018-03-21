@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.jessi.proy1.RegistrarMantenimiento">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/imagen"
+        android:text="Registrar Mantenimiento"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TableLayout
+        android:id="@+id/tabla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/titulo"
+        android:layout_below="@+id/titulo"
+        >
+
+        <TableRow
+            android:id="@+id/fila1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lbl1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha Realizada:"/>
+            <EditText
+                android:id="@+id/txtfecharealizada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName">
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lbl2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha Emision:"/>
+            <EditText
+                android:id="@+id/txtfechaemision"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lbl3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estado:"/>
+            <EditText
+                android:id="@+id/txtestadomantenimiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lbl4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IdTipoMantenimiento:"/>
+            <EditText
+                android:id="@+id/txtidtipomante"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                >
+            </EditText>
+        </TableRow>
+
+    </TableLayout>
+    <Button
+        android:id="@+id/btnInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tabla"
+        android:layout_marginTop="19dp"
+        android:onClick="registrarMantenimientoCel"
+        android:text="Guardar" />
+
+</RelativeLayout>

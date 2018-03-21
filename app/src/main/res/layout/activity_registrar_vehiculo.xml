@@ -1,0 +1,189 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.jessi.proy1.RegistrarVehiculo">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/imagen"
+        android:text="@string/txtTitulorv"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TableLayout
+        android:id="@+id/tabla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/titulo"
+        android:layout_below="@+id/titulo"
+        >
+
+        <TableRow
+            android:id="@+id/fila1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lbl1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marca:"/>
+            <EditText
+                android:id="@+id/txtMarca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName">
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lbl2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modelo:"/>
+            <EditText
+                android:id="@+id/txtModelo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lbl3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipo:"/>
+            <EditText
+                android:id="@+id/txtTipo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lbl4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anio:"/>
+            <EditText
+                android:id="@+id/txtAnio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lbl4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Color:"/>
+            <EditText
+                android:id="@+id/txtColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                >
+            </EditText>
+        </TableRow>
+        <TableRow
+            android:id="@+id/fila4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lbl4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estado:"/>
+            <EditText
+                android:id="@+id/txtEstado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                >
+            </EditText>
+        </TableRow>
+        <TableRow
+            android:id="@+id/fila4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lbl4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Placa:"/>
+            <EditText
+                android:id="@+id/txtPlaca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                >
+            </EditText>
+        </TableRow>
+        <TableRow
+            android:id="@+id/fila4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lbl4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nr Mantenimiento:"/>
+            <EditText
+                android:id="@+id/txtIdMantenimiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                >
+            </EditText>
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:id="@+id/btnInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tabla"
+        android:layout_marginTop="19dp"
+        android:onClick="registrarVehiculoCel"
+        android:text="Guardar"/>
+
+
+
+</RelativeLayout>

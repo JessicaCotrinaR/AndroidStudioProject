@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Proy1</string>
+    <string name="calendario">Calendario</string>
+    <string name="servicios">Servicios</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_principal">MenuPrincipal</string>
+    <string name="title_activity_servicios_cercanos">ServiciosCercanos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_mi_zona">MiZona</string>
+    <string name="title_activity_calendario_programa">CalendarioPrograma</string>
+    <string name="title_activity_inf_servicios_fragment">InfServiciosFragment</string>
+    <string name="title_activity_grifo">Grifo</string>
+    <string name="title_activity_mecanico">Mecanico</string>
+    <string name="title_activity_mantenimiento">Mantenimiento</string>
+    <string name="btnEnviar">btnEnviar</string>
+    <string name="btnIngresar">Ingresar</string>
+    <string name="btnLogo">logo</string>
+    <string name="ttloMecanico">Mecánico el ingenio</string>
+    <string name="Mdescr">Servicios:</string>
+    <string name="MecDescripc2"><![CDATA[-> Cambio de Aceite s/10.00\n-> Revision General s/.25.00]]></string>
+    <string name="imagenMecanico">mecanico</string>
+    <string name="menBtnMant">Ruta</string>
+    <string name="menBtnRuta">ruta</string>
+    <string name="txtMenMantenimiento">Mantenimientos</string>
+    <string name="menTxtRuta">Mi Ruta</string>
+    <string name="menBtnCalendario">Calendario</string>
+    <string name="menBtnServicios">Servicios</string>
+    <string name="menBtnMecani">menBtnMecanico</string>
+    <string name="menTxtMecanico">Mecánicos</string>
+    <string name="menTextGrifo">Grifos</string>
+    <string name="tituloGrifo">Grifo Repsol</string>
+    <string name="imagenGrifo">imagGrifo</string>
+    <string name="textGrifo1">Servicios:</string>
+    <string name="textGrifo2"><![CDATA[-> Gas licuado s/1.00\n-> Petroledo con agua s/.25]]></string>
+    <string name="imagenVehiculo">m</string>
+    <string name="tituloGrifo2">Grifo Repsol</string>
+    <string name="imagenGrifo2">imagenGrifo2</string>
+    <string name="descripcionGrifo">Servicios:</string>
+    <string name="descripcionGrifo2"><![CDATA[-> Gas licuado s/1.00\n-> Petroledo con agua s/.25]]></string>
+    <string name="txtMantenimiento">Mantenimientos</string>
+    <string name="title_activity_registrar_vehiculo">RegistrarVehiculo</string>
+    <string name="title_activity_listar_vehiculo">ListarVehiculo</string>
+    <string name="txtVehiculo">Vehiculo</string>
+    <string name="title_activity_menu_vehiculo">MenuVehiculo</string>
+    <string name="txtRegVehiculo">Registrar Vehiculo</string>
+    <string name="txtListVehiculo">Listar Vehiculo</string>
+    <string name="txtTitulorv">Registrar Vehiculo</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="txtTLVeh">Listar Vehiculo</string>
+    <string name="detener">detener</string>
+    <string name="title_activity_registrar_mantenimiento">RegistrarMantenimiento</string>
+    <string name="title_activity_listar_mantenimiento">ListarMantenimiento</string>
+    <string name="title_activity_registrar_voluntario">RegistrarVoluntario</string>
+    <string name="title_activity_listar_voluntario">ListarVoluntario</string>
+    <string name="title_activity_listar_tipo_mantenimiento">ListarTipoMantenimiento</string>
+
+</resources>

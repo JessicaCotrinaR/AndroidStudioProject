@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="horizontal"
+    android:onClick="CalendarioPro"
+    android:id="@+id/id">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="60dp"
+    android:gravity="center_horizontal"
+    android:id="@+id/idj">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/logop"
+        android:contentDescription="@string/btnLogo" />
+
+
+</LinearLayout>
+
+<TableLayout
+    android:id="@+id/tabla"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1"
+    android:layout_marginTop="20dp"
+    android:longClickable="true">
+
+    <TableRow
+        android:id="@+id/fila1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/lbl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Usuario:"
+            android:textColor="#ff0c0203" />
+        <EditText
+            android:id="@+id/txtUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginRight="10dp"
+            android:inputType="textPersonName">
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/fila2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/lbl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Pasword:"
+            android:textColor="#ff030001" />
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginRight="10dp"
+            android:inputType="textPassword">
+        </EditText>
+    </TableRow>
+</TableLayout>
+<Button
+    android:id="@+id/InicioS"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:layout_marginTop="19dp"
+    android:background="#fcd00000"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginBottom="10dp"
+    android:padding="10dp"
+    android:textColor="@color/white"
+    android:text="@string/btnIngresar"
+    android:onClick="login" />
+
+
+
+</LinearLayout>
+</RelativeLayout>

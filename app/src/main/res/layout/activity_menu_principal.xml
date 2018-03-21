@@ -1,0 +1,219 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.jessi.proy1.MenuPrincipal"
+    android:background="@drawable/fondo">
+
+    <TableLayout
+        android:id="@+id/tabla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:stretchColumns="1"
+
+        >
+
+        <TableRow
+            android:id="@+id/fila1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/btnMiRuta"
+                    android:layout_gravity="center_horizontal"
+
+                    android:background="@drawable/carro"
+                    android:nestedScrollingEnabled="false"
+                    android:onClick="MantenimientoV"
+                    android:contentDescription="@string/menBtnMant" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="MiRuta">
+                <ImageButton
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/btnDestinatarios"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/ruta"
+
+                    android:onClick="MiRuta"
+                    android:contentDescription="@string/menBtnRuta" />
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/txtMenMantenimiento"
+                    android:textColor="#ffffffff" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/menTxtRuta"
+                    android:textColor="#ffffffff" />
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/btnMiRuta"
+                    android:layout_gravity="center_horizontal"
+
+                    android:background="@drawable/calendario"
+                    android:nestedScrollingEnabled="false"
+                    android:onClick="CalendarioPro"
+                    android:contentDescription="@string/menBtnMant" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="MiRuta">
+                <ImageButton
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/btnDestinatarios"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/servicio"
+
+                    android:onClick="MiServicios"
+                    android:contentDescription="@string/menBtnRuta" />
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Calendario"
+                    android:textColor="#ffffffff" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Servicios"
+                    android:textColor="#ffffffff" />
+            </FrameLayout>
+        </TableRow>
+        <TableRow
+            android:id="@+id/fila1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/btnMiRuta"
+                    android:layout_gravity="center_horizontal"
+
+                    android:background="@drawable/gestiones"
+                    android:nestedScrollingEnabled="false"
+                    android:onClick="VehiculoMenu"
+                    android:contentDescription="@string/menBtnMant" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="MiRuta"></FrameLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Gestionar"
+                    android:textColor="#ffffffff" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"></FrameLayout>
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</RelativeLayout>
